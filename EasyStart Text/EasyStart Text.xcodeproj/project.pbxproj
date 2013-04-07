@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84DFCE9F1711EA040028B96B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DFCE9E1711EA040028B96B /* UIKit.framework */; };
+		84DFCEA11711EA040028B96B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DFCEA01711EA040028B96B /* Foundation.framework */; };
+		84DFCEA31711EA040028B96B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DFCEA21711EA040028B96B /* CoreGraphics.framework */; };
+		84DFCEA91711EA040028B96B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84DFCEA71711EA040028B96B /* InfoPlist.strings */; };
+		84DFCEAB1711EA040028B96B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFCEAA1711EA040028B96B /* main.m */; };
+		84DFCEAF1711EA040028B96B /* EBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFCEAE1711EA040028B96B /* EBAppDelegate.m */; };
+		84DFCEB11711EA040028B96B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DFCEB01711EA040028B96B /* Default.png */; };
+		84DFCEB31711EA040028B96B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DFCEB21711EA040028B96B /* Default@2x.png */; };
+		84DFCEB51711EA040028B96B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DFCEB41711EA040028B96B /* Default-568h@2x.png */; };
+		84DFCEB81711EA040028B96B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DFCEB61711EA040028B96B /* MainStoryboard_iPhone.storyboard */; };
+		84DFCEBB1711EA040028B96B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DFCEB91711EA040028B96B /* MainStoryboard_iPad.storyboard */; };
+		84DFCEBE1711EA040028B96B /* EBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFCEBD1711EA040028B96B /* EBViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84DFCE9A1711EA040028B96B /* EasyStart Text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EasyStart Text.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DFCE9E1711EA040028B96B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84DFCEA01711EA040028B96B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84DFCEA21711EA040028B96B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84DFCEA61711EA040028B96B /* EasyStart Text-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyStart Text-Info.plist"; sourceTree = "<group>"; };
+		84DFCEA81711EA040028B96B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84DFCEAA1711EA040028B96B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84DFCEAC1711EA040028B96B /* EasyStart Text-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyStart Text-Prefix.pch"; sourceTree = "<group>"; };
+		84DFCEAD1711EA040028B96B /* EBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBAppDelegate.h; sourceTree = "<group>"; };
+		84DFCEAE1711EA040028B96B /* EBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBAppDelegate.m; sourceTree = "<group>"; };
+		84DFCEB01711EA040028B96B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		84DFCEB21711EA040028B96B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		84DFCEB41711EA040028B96B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		84DFCEB71711EA040028B96B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		84DFCEBA1711EA040028B96B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		84DFCEBC1711EA040028B96B /* EBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBViewController.h; sourceTree = "<group>"; };
+		84DFCEBD1711EA040028B96B /* EBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DFCE971711EA040028B96B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DFCE9F1711EA040028B96B /* UIKit.framework in Frameworks */,
+				84DFCEA11711EA040028B96B /* Foundation.framework in Frameworks */,
+				84DFCEA31711EA040028B96B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84DFCE8F1711EA030028B96B = {
+			isa = PBXGroup;
+			children = (
+				84DFCEA41711EA040028B96B /* EasyStart Text */,
+				84DFCE9D1711EA040028B96B /* Frameworks */,
+				84DFCE9B1711EA040028B96B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84DFCE9B1711EA040028B96B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DFCE9A1711EA040028B96B /* EasyStart Text.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DFCE9D1711EA040028B96B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84DFCE9E1711EA040028B96B /* UIKit.framework */,
+				84DFCEA01711EA040028B96B /* Foundation.framework */,
+				84DFCEA21711EA040028B96B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84DFCEA41711EA040028B96B /* EasyStart Text */ = {
+			isa = PBXGroup;
+			children = (
+				84DFCEAD1711EA040028B96B /* EBAppDelegate.h */,
+				84DFCEAE1711EA040028B96B /* EBAppDelegate.m */,
+				84DFCEB61711EA040028B96B /* MainStoryboard_iPhone.storyboard */,
+				84DFCEB91711EA040028B96B /* MainStoryboard_iPad.storyboard */,
+				84DFCEBC1711EA040028B96B /* EBViewController.h */,
+				84DFCEBD1711EA040028B96B /* EBViewController.m */,
+				84DFCEA51711EA040028B96B /* Supporting Files */,
+			);
+			path = "EasyStart Text";
+			sourceTree = "<group>";
+		};
+		84DFCEA51711EA040028B96B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84DFCEA61711EA040028B96B /* EasyStart Text-Info.plist */,
+				84DFCEA71711EA040028B96B /* InfoPlist.strings */,
+				84DFCEAA1711EA040028B96B /* main.m */,
+				84DFCEAC1711EA040028B96B /* EasyStart Text-Prefix.pch */,
+				84DFCEB01711EA040028B96B /* Default.png */,
+				84DFCEB21711EA040028B96B /* Default@2x.png */,
+				84DFCEB41711EA040028B96B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DFCE991711EA040028B96B /* EasyStart Text */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DFCEC11711EA040028B96B /* Build configuration list for PBXNativeTarget "EasyStart Text" */;
+			buildPhases = (
+				84DFCE961711EA040028B96B /* Sources */,
+				84DFCE971711EA040028B96B /* Frameworks */,
+				84DFCE981711EA040028B96B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EasyStart Text";
+			productName = "EasyStart Text";
+			productReference = 84DFCE9A1711EA040028B96B /* EasyStart Text.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DFCE911711EA030028B96B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EB;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Eberspacher;
+			};
+			buildConfigurationList = 84DFCE941711EA030028B96B /* Build configuration list for PBXProject "EasyStart Text" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84DFCE8F1711EA030028B96B;
+			productRefGroup = 84DFCE9B1711EA040028B96B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84DFCE991711EA040028B96B /* EasyStart Text */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DFCE981711EA040028B96B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DFCEA91711EA040028B96B /* InfoPlist.strings in Resources */,
+				84DFCEB11711EA040028B96B /* Default.png in Resources */,
+				84DFCEB31711EA040028B96B /* Default@2x.png in Resources */,
+				84DFCEB51711EA040028B96B /* Default-568h@2x.png in Resources */,
+				84DFCEB81711EA040028B96B /* MainStoryboard_iPhone.storyboard in Resources */,
+				84DFCEBB1711EA040028B96B /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DFCE961711EA040028B96B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DFCEAB1711EA040028B96B /* main.m in Sources */,
+				84DFCEAF1711EA040028B96B /* EBAppDelegate.m in Sources */,
+				84DFCEBE1711EA040028B96B /* EBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84DFCEA71711EA040028B96B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DFCEA81711EA040028B96B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84DFCEB61711EA040028B96B /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DFCEB71711EA040028B96B /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		84DFCEB91711EA040028B96B /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DFCEBA1711EA040028B96B /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DFCEBF1711EA040028B96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84DFCEC01711EA040028B96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DFCEC21711EA040028B96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyStart Text/EasyStart Text-Prefix.pch";
+				INFOPLIST_FILE = "EasyStart Text/EasyStart Text-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84DFCEC31711EA040028B96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyStart Text/EasyStart Text-Prefix.pch";
+				INFOPLIST_FILE = "EasyStart Text/EasyStart Text-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DFCE941711EA030028B96B /* Build configuration list for PBXProject "EasyStart Text" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DFCEBF1711EA040028B96B /* Debug */,
+				84DFCEC01711EA040028B96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DFCEC11711EA040028B96B /* Build configuration list for PBXNativeTarget "EasyStart Text" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DFCEC21711EA040028B96B /* Debug */,
+				84DFCEC31711EA040028B96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84DFCE911711EA030028B96B /* Project object */;
+}
